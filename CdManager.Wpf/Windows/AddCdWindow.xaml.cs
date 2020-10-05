@@ -30,7 +30,7 @@ namespace CdManager.Wpf.Windows
             btnCancel.Click += BtnCancel_Click;
 
 
-            DataContext = new Cd() { AlbumTitle = "<Bitte Titel eingeben>"};
+            DataContext = new Cd() { AlbumTitle = "<Bitte Titel eingeben>" };
         }
 
         private void BtnCancel_Click(object sender, RoutedEventArgs e)
@@ -45,3 +45,4 @@ namespace CdManager.Wpf.Windows
         }
     }
 }
+
